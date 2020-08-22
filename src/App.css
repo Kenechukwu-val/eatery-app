@@ -1,0 +1,54 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  text-decoration: none;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media (max-width: 25em) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+body {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+  }
+
+body {
+    font-family: "Avenir", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 34px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    color: #000000;
+}
